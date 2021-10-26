@@ -288,7 +288,7 @@ form{
         position: absolute;
         width: 80vw;
         left: 8%;
-        top: 90%;
+        top: 90px;
         margin-bottom:20px;
     }
     .task_list_title{
