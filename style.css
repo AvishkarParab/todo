@@ -205,11 +205,6 @@ form{
     border-right: 1px solid black;
     box-shadow: 0.2rem 0.27rem .2rem rgb(0, 0, 0);
 }
-.todo_list:hover{
-    transition: .2s ease-in-out;
-    box-shadow: 0.5rem 0.57rem .4rem rgb(0, 0, 0);
-    transform: translateX(-10px);
-}
 .todo_header{
     position: relative;
     border-radius: 10px ;
