@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="todo.png">
+</head>
+<body>
+    <div class="loader">
+        
+        <img src="https://cdn.dribbble.com/users/107759/screenshots/2436386/media/22e1ee1c38dae78eaec97b55d6f78167.gif" alt="Loading...">
+        <h1><span></span> </h1>
+    </div>
+    <h2 class="title">TO DO LIST</h2>
+    <div class="all_tasks">
+        <h2 class="task_list_title">My Lists</h2>
+        <ul class="task_list">
+            
+        </ul>
+        <form action="" class="f1">
+            <input type="text" class="new list" placeholder="new list name" aria-label="new list name">
+            <button type="button" class="btn list" aria-label="create_new_list">+</button>
+        </form>
+    </div>
+    <div class="todo_list">
+        <div class="todo_header">
+            <h2 class="list_title">Youtube</h2>
+            <p class="task_count"> task remaining</p>
+        </div>
+            <div class="todo_body">
+                <ul class="tasks">
+                   
+                    <li class="task">
+                        <input type="checkbox" id="task-1" name="check" /> first list 
+                    </li>
+                    
+                </ul>
+
+                <div class="new_task_creator">
+                    <form action="" class="f2">
+                        <input type="text" class="new task" placeholder="new task name" aria-label="new task name">
+                        <button type="button" class="btn taskbt" aria-label="create_new_task">+</button>
+                    </form>
+
+                </div>
+            </div>
+                <div class="delete_stuff">
+                    <button class="btn delete cleartask"> Clear completed tasks</button>
+                    <button class="btn delete clearlist"> Delete List</button>
+                </div>
+            
+        
+    </div>
+    <script src="script.js"></script>
+   </body>
+
+</html>
