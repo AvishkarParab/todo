@@ -324,6 +324,7 @@ form{
     }
     .tasks {
         color: rgb(236, 255, 242);
+        font-size: 18px;
     }
     .task_count{
         font-size: .8rem;
