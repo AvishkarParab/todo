@@ -63,6 +63,13 @@ body{
     background-color: var(--clr-primary);
     color: var(--clr-light);
 }
+.wrapper{
+      position: relative;
+      margin-top: -20px;
+      height: auto;
+      width: auto;
+      
+}
 .title{
     grid-area: header;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -186,13 +193,14 @@ form{
     from{font-weight: normal;}
     to{font-weight: bolder;}
 }
+
+.f1{
+    margin-bottom: 30px;
+}
 .todo_list{
     position: absolute;
-    /* margin-left: 60px;
-    margin-top: 20px;
-    margin-bottom: 30px; */
     left: 40%;
-    top: 37%;
+    top: 20%;
     right: 2%;
     background-color: rgba(25, 234, 241, 0.377);
     max-width: 30rem;
@@ -204,6 +212,7 @@ form{
     border-bottom: 1px solid black;
     border-right: 1px solid black;
     box-shadow: 0.2rem 0.27rem .2rem rgb(0, 0, 0);
+    
 }
 
 .todo_header{
@@ -282,19 +291,30 @@ form{
     color: #000;
 }
 @media only screen and (max-width:500px) {
-    .list_title{
-        font-size: 1.3rem;
-        margin-top: -1px;
-        letter-spacing: 3px;
-        color:rgb(119, 255, 210);
-    }
-    .todo_list{
-        position: absolute;
-        width: 80vw;
-        left: 8%;
-        top: 330px;
-        margin-bottom:20px;
-    }
+    .all_tasks{
+        /* margin-left: 4rem; */
+        /* margin-bottom: 20rem; */
+        }
+        .f1{
+            margin-bottom: 10px;
+           
+        }
+        .list_title{
+            font-size: 1.3rem;
+            margin-top: -1px;
+            letter-spacing: 3px;
+            color:rgb(119, 255, 210);
+        }
+      
+        .todo_list{
+            /* place-self: end; */
+            position: relative;
+            width: 80vw;
+            margin-top: 30px;
+            margin-left: -200px;
+            margin-bottom:20px;
+        }
+    
     .task_list_title{
         font-size: 22px;
         color: rgb(253, 183, 77);
