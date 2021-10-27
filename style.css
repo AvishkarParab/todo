@@ -205,6 +205,7 @@ form{
     border-right: 1px solid black;
     box-shadow: 0.2rem 0.27rem .2rem rgb(0, 0, 0);
 }
+
 .todo_header{
     position: relative;
     border-radius: 10px ;
@@ -226,6 +227,9 @@ form{
     bottom: -10px;
     right: 10px;
     color: #ffa19a;
+}
+.task_count:hover{
+    color: greenyellow;
 }
 .todo_body{
    /* border:1px solid red; */
@@ -288,7 +292,7 @@ form{
         position: absolute;
         width: 80vw;
         left: 8%;
-        top: 70px;
+        top: 330px;
         margin-bottom:20px;
     }
     .task_list_title{
@@ -309,15 +313,18 @@ form{
         right: 10px;
         color: #ffa19a;
     }
+    .task_count:hover{
+        color: greenyellow;
+    }
     
     .delete_stuff{
         margin-left: 10px;
         color: darkred;
     }
     .btn.delete{
-        font-size: 12px;
+        font-size: 13px;
         margin-left: 5px;
-        margin-right: 5px;
+        margin-right: 10px;
         margin-bottom: 10px;
         letter-spacing: 1px;
         font-weight: bold;
@@ -333,8 +340,7 @@ form{
     .todo_list{
         min-width: 250px;
         width:298px;
-        left:10px:
-        top:70px;
+        left:10px;
         margin-bottom:20px;
     }
     .task_list_title{
